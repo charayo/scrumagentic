@@ -1,1 +1,11 @@
+# Ignore .env files in the root directory
+.env
 
+# Ignore .env files in any subdirectory
+**/.env
+
+# Ignore node_modules in any folder and subfolder
+**/node_modules/
+
+# Ignore Python virtual environments (venv) in any folder and subfolder
+**/venv/
